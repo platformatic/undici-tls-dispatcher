@@ -1,12 +1,12 @@
 {
-  "name": "undici-mtls-dispatcher",
-  "version": "1.0.0",
-  "description": "",
+  "name": "undici-tls-dispatcher",
+  "version": "0.1.0",
+  "description": "Add domain-specific TLS configuration to undici requests",
   "main": "index.js",
   "scripts": {
     "test": "standard | snazzy && c8 node test.js"
   },
-  "keywords": [],
+  "keywords": ["undici", "tls"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/platformatic/undici-mtls-dispatcher"
