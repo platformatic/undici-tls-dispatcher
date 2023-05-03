@@ -1,0 +1,26 @@
+{
+  "name": "undici-mtls-dispatcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard | snazzy && c8 node test.js"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/platformatic/undici-mtls-dispatcher"
+  },
+  "author": "Matteo Collina <hello@matteocollina.com>",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "fastify": "^4.17.0",
+    "undici": "^5.22.0"
+  },
+  "devDependencies": {
+    "c8": "^7.13.0",
+    "selfsigned": "^2.1.1",
+    "snazzy": "^9.0.0",
+    "standard": "^17.0.0"
+  }
+}
