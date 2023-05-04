@@ -4,6 +4,7 @@
   "description": "Add domain-specific TLS configuration to undici requests",
   "main": "index.js",
   "scripts": {
+    "test:only": "node test.js",
     "test": "standard | snazzy && c8 node test.js"
   },
   "keywords": ["undici", "tls"],
