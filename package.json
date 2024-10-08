@@ -15,7 +15,6 @@
   "author": "Matteo Collina <hello@matteocollina.com>",
   "license": "Apache 2.0",
   "dependencies": {
-    "fastify": "^5.0.0",
     "undici": "^6.0.1"
   },
   "devDependencies": {
