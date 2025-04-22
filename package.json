@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test:only": "node test.js",
-    "test": "eslint . && c8 node test.js",
+    "test": "eslint . && c8 node --test --test-timeout 5000 test.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
