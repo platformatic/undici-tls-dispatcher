@@ -5,9 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test:only": "node test.js",
-    "test": "standard | snazzy && c8 node test.js"
+    "test": "eslint . && c8 node test.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
-  "keywords": ["undici", "tls"],
+  "keywords": [
+    "undici",
+    "tls"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/platformatic/undici-mtls-dispatcher"
@@ -19,8 +24,8 @@
   },
   "devDependencies": {
     "c8": "^10.1.1",
-    "selfsigned": "^2.1.1",
-    "snazzy": "^9.0.0",
-    "standard": "^17.0.0"
+    "eslint": "^9.25.1",
+    "neostandard": "^0.12.1",
+    "selfsigned": "^2.1.1"
   }
 }
