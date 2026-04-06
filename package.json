@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "c8": "^10.1.1",
-    "eslint": "^9.25.1",
+    "eslint": "^10.2.0",
     "neostandard": "^0.12.1",
     "selfsigned": "^2.1.1"
   }
